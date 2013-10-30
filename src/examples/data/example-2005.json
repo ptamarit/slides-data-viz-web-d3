@@ -1,0 +1,41 @@
+{
+  "year": 2005,
+  "people": [
+    {
+      "name": "Alice",
+      "age": 9,
+      "height": 140,
+      "weight": 30
+    },
+    {
+      "name": "Bruno",
+      "age": 7,
+      "height": 110,
+      "weight": 22
+    },
+    {
+      "name": "Dédé",
+      "age": 30,
+      "height": 172,
+      "weight": 75
+    },
+    {
+      "name": "Etienne",
+      "age": 47,
+      "height": 182,
+      "weight": 70
+    },
+    {
+      "name": "Zoé",
+      "age": 2,
+      "height": 84,
+      "weight": 10
+    },
+    {
+      "name": "Françoise",
+      "age": 13,
+      "height": 141,
+      "weight": 42
+    }
+  ]
+}

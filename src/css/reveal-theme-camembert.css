@@ -1,0 +1,114 @@
+/*********************************************
+ * GLOBAL STYLES
+ *********************************************/
+
+body {
+  /* A plain background in case the background image cannot be displayed. */
+  background-color: #202020;
+  background-image: url(../img/cartographer.png);
+}
+
+.reveal {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+
+  font-size: 36px;
+  color: #FFFFFF;
+}
+
+/* Gradient transparent - color - transparent */
+/* http://css-tricks.com/examples/hrs/ */
+.reveal hr {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(50%, #ffffff), color-stop(100%, rgba(255, 255, 255, 0)));
+  background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), #ffffff, rgba(255, 255, 255, 0));
+  background-image: -moz-linear-gradient(left, rgba(255, 255, 255, 0), #ffffff, rgba(255, 255, 255, 0));
+  background-image: -o-linear-gradient(left, rgba(255, 255, 255, 0), #ffffff, rgba(255, 255, 255, 0));
+  background-image: linear-gradient(left, rgba(255, 255, 255, 0), #ffffff, rgba(255, 255, 255, 0));
+}
+
+::selection {
+  background-color: #FF5E99;
+}
+
+/*********************************************
+ * HEADERS
+ *********************************************/
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  margin: 0 0 20px 0;
+  font-family: 'Droid Serif', serif;
+  line-height: 0.9em;
+}
+
+.reveal h1 {
+  font-weight: 700;
+  font-style: italic;
+  font-size: 2.0em;
+}
+
+.reveal h2 {
+  font-weight: 700;
+  font-style: italic;
+  font-size: 1.7em;
+}
+
+.reveal h3 {
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1.3em;
+}
+
+/*********************************************
+ * CODE
+ *********************************************/
+
+.reveal code {
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*********************************************
+ * LINKS
+ *********************************************/
+
+.reveal a:not(.image) {
+  color: #13DAEC;
+  text-decoration: none;
+  -webkit-transition: color .15s ease;
+  -moz-transition: color .15s ease;
+  -ms-transition: color .15s ease;
+  -o-transition: color .15s ease;
+  transition: color .15s ease;
+}
+
+.reveal a:not(.image):hover {
+  color: #71E9F4;
+  border: none;
+}
+
+/*********************************************
+ * PROGRESS BAR
+ *********************************************/
+
+.reveal .progress {
+  /* Fallback background-color for older browsers that don't support RGBA. */
+  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.reveal .progress span {
+  background-color: #13DAEC;
+  -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -ms-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -o-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+}

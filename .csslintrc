@@ -1,0 +1,8 @@
+{
+  "font-faces": false,
+  "bulletproof-font-face": false,
+  "qualified-headings": false,
+  "unique-headings": false,
+  "regex-selectors": false,
+  "unqualified-attributes": false
+}

@@ -1,0 +1,105 @@
+/*********************************************
+ * PRESENTATION-SPECIFIC STYLES
+ *********************************************/
+
+.reveal .title-slide .container {
+  /*
+  The p element already has a bottom padding of 10px, so we only set a top, left and right ones.
+  */
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  /* Fallback background-color for older browsers that don't support RGBA. */
+  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+/* Same code as ".reveal small" */
+.reveal .small-text {
+  font-size: 0.6em;
+  line-height: 1.2em;
+}
+
+.reveal .extra-small-text {
+  font-size: 0.5em;
+  line-height: 1.0em;
+}
+
+.reveal .no-bullets {
+  list-style-type: none;
+  /* Remove the margin on the left which is for the bullets. */
+  margin: 0;
+}
+
+.reveal .credits {
+  width: 75%;
+}
+
+.reveal .credits .author {
+  float: right;
+}
+
+.reveal .credits li {
+  border-bottom: 1px dotted #808080;
+}
+
+.reveal img {
+  /* Removes the space below an image and align at the middle if there's some text */
+  vertical-align: middle;
+}
+
+.reveal .image-credits {
+  width: 50%;
+  float: left;
+}
+
+.reveal .image-credits img {
+  max-width: 20%;
+  margin-bottom: 10px;
+}
+
+.reveal .img-container {
+  /* We want the absolute positions below to be relative to this one. */
+  position: relative;
+  /* Centers the DIV horizontally. */
+  margin: 0 auto;
+}
+
+.reveal .img-container img {
+  /* Make the images overlap */
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* As the image size is relative to the parent container, it doesn't make sense to constrain the size to 95% in this case. */
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* Give a little margin to the background images having the background-size:contain. */
+.reveal .slide-background[style*="contain"] {
+  width: 96%;
+  height: 96%;
+  top: 2%;
+  left: 2%;
+}
+
+.reveal .centered {
+  text-align: center;
+}
+
+.reveal table {
+  margin-left: auto;
+  margin-right: auto;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.reveal table th, .reveal table td {
+  border: 2px solid gray;
+  padding: 5px;
+}
+
+.reveal table th {
+  font-weight: bold;
+  text-shadow: none;
+}
