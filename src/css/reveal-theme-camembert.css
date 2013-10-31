@@ -45,6 +45,10 @@ body {
   margin: 0 0 20px 0;
   font-family: 'Droid Serif', serif;
   line-height: 0.9em;
+
+  -webkit-hyphens: none;
+     -moz-hyphens: none;
+          hyphens: none;
 }
 
 .reveal h1 {
