@@ -48,6 +48,7 @@ body {
 
   -webkit-hyphens: none;
      -moz-hyphens: none;
+    -epub-hyphens: none;
           hyphens: none;
 }
 
