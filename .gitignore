@@ -3,3 +3,4 @@
 /node_modules/
 /.grunt-html-validation-status.json
 /.grunt-html-validation-report.json
+/.grunt/

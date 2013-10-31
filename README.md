@@ -10,3 +10,4 @@
 - Run `grunt` to execute all the checking tasks and start a local HTTP server on the source files.
 - Run `grunt build` to execute all the checking tasks and build the distributable files.
 - Run `grunt dist` to execute all the checking tasks, build the distributable files and start a local HTTP server on the distributable files.
+- Run `grunt publish` to execute all the checking tasks, build the distributable files and publish them to your gh-pages branch on GitHub.

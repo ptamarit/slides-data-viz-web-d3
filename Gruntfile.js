@@ -184,6 +184,17 @@ module.exports = function(grunt) {
           to: '<!DOCTYPE html><%= bannerHtml %>'
         }]
       }
+    },
+
+    // PUBLISH
+    // -------
+
+    'gh-pages': {
+      options: {
+        base: 'dist',
+        message: 'autocommit'
+      },
+      src: '**/*'
     }
   });
 
@@ -201,6 +212,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-rev');
   grunt.loadNpmTasks('grunt-contrib-htmlmin');
   grunt.loadNpmTasks('grunt-text-replace');
+  grunt.loadNpmTasks('grunt-gh-pages');
 
   grunt.registerTask('check', ['jsonlint', 'jshint', 'csslint', 'validation']);
 
@@ -212,5 +224,7 @@ module.exports = function(grunt) {
     ]);
 
   grunt.registerTask('dist', ['build', 'connect:dist']);
+
+  grunt.registerTask('publish', ['build', 'gh-pages']);
 
 };
