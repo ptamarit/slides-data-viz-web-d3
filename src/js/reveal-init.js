@@ -23,6 +23,6 @@ Reveal.initialize({
         'use strict';
         hljs.initHighlightingOnLoad();
       }
-    },
+    }
   ]
 });
