@@ -1,3 +1,5 @@
+[![devDependency Status](https://david-dm.org/ptamarit/slides-data-viz-web-d3/dev-status.png)](https://david-dm.org/ptamarit/slides-data-viz-web-d3#info=devDependencies)
+
 ## How to install
 - Install node.js and npm.
 - Run `[sudo] npm install -g grunt-cli` to install the grunt command line interface.
