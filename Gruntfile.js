@@ -58,8 +58,8 @@ module.exports = function(grunt) {
     validation: {
       options: {
         reset: true,
-        path: '.grunt-html-validation-status.json',
-        reportpath: '.grunt-html-validation-report.json'
+        path: '.grunt/grunt-html-validation/status.json',
+        reportpath: '.grunt/grunt-html-validation/report.json'
       },
       code: {
         src: ['src/**/*.html', '!src/bower_components/**/*.html']
@@ -91,7 +91,7 @@ module.exports = function(grunt) {
 
     clean: {
       dist: {
-        src: ['dist', '.tmp', '.grunt']
+        src: ['dist', '.grunt', '.tmp']
       }
     },
 
