@@ -195,7 +195,7 @@ module.exports = function(grunt) {
     'gh-pages': {
       options: {
         base: 'dist',
-        message: 'autocommit'
+        message: 'autocommit <%= grunt.template.today("isoDateTime") %>'
       },
       src: '**/*'
     }
