@@ -8,6 +8,8 @@ module.exports = function(grunt) {
     '<%= pkg.homepage %>'
   ];
 
+  grunt.template.addDelimiters('mustachy', '{%', '%}');
+
   // Load all the grunt tasks.
   require('load-grunt-tasks')(grunt);
 
@@ -59,7 +61,9 @@ module.exports = function(grunt) {
       options: {
         reset: true,
         path: '.grunt/grunt-html-validation/status.json',
-        reportpath: '.grunt/grunt-html-validation/report.json'
+        reportpath: '.grunt/grunt-html-validation/report.json',
+        relaxerror: ['Bad value {%= lang %} for attribute lang on element html: ' +
+                     'Subtags must not exceed 8 characters in length.']
       },
       code: {
         src: ['src/**/*.html', '!src/bower_components/**/*.html']
@@ -95,11 +99,23 @@ module.exports = function(grunt) {
       }
     },
 
+    i18n: {
+      options: {
+        locales: 'src/locales/*',
+        output: 'dist',
+        base: 'src/template',
+        delimiters: 'mustachy'
+      },
+      dist: {
+        src: ['src/template/index.html']
+      }
+    },
+
     useminPrepare: {
       options: {
         dest: 'dist/fr/'
       },
-      html: 'src/fr/index.html'
+      html: 'src/template/index.html'
     },
 
     cssmin: {
@@ -126,8 +142,6 @@ module.exports = function(grunt) {
             'examples/data/*',
             'bower_components/reveal.js/plugin/highlight/highlight.js',
             'index.html',
-            'en/index.html',
-            'fr/index.html',
             'favicon.ico',
             'img/*',
             'css/fonts/*'
@@ -207,7 +221,7 @@ module.exports = function(grunt) {
 
   grunt.registerTask(
     'build', ['check',
-      'clean', 'useminPrepare', 'concat', 'cssmin', 'uglify', 'copy', 'rev', 'usemin', 'htmlmin', 'replace'
+      'clean', 'i18n', 'useminPrepare', 'concat', 'cssmin', 'uglify', 'copy', 'rev', 'usemin', 'htmlmin', 'replace'
     ]);
 
   grunt.registerTask('dist', ['build', 'connect:dist']);

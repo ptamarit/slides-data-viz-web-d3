@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="{%= lang %}">
 <head>
   <meta charset="utf-8">
-  <title>Visualisation de données pour le web avec D3.js: Dites adieu aux camemberts</title>
+  <title>{%= title_head %}: {%= subtitle %}</title>
   <meta name="author" content="Pablo Tamarit">
 
   <!-- Hide the toolbar on Safari iOS -->
@@ -30,56 +30,57 @@
 
       <section class="title-slide" data-background="../img/camembert.jpg">
         <div class="container">
-          <h1>Visualisation de données pour le web avec D3.js</h1>
-          <h3>Dites adieu aux camemberts</h3>
+          <h1>{%= title %}</h1>
+          <h3>{%= subtitle %}</h3>
           <hr>
           <p>
             <small>Pablo Tamarit · <a href="http://twitter.com/ptamarit">@ptamarit</a></small>
           </p>
         </div>
+        {%= subtitle_asterisk %}
       </section>
 
       <section id="about-me">
         <h2>Pablo Tamarit</h2>
         <img alt="Ecole d'Ingénieurs de Genève" src="../img/ecole-d-ingenieurs-de-geneve.jpg" height="300" class="fragment"><img alt="CERN" src="../img/cern.jpg" height="300" class="fragment">
         <ul>
-          <li class="fragment">Boulot:
+          <li class="fragment">{%= work %}:
             <ul>
               <li class="fragment">Web</li>
               <li class="fragment">Java, Groovy, Clojure</li>
               <li class="fragment">GWT</li>
             </ul>
           </li>
-          <li class="fragment">Avant le dodo:
+          <li class="fragment">{%= freetime %}:
             <ul>
               <li class="fragment">JavaScript</li>
-              <li class="fragment">Résultats visuels</li>
+              <li class="fragment">{%= visual_results %}</li>
             </ul>
           </li>
         </ul>
       </section>
 
       <section id="roadmap">
-        <h2>Au programme</h2>
+        <h2>{%= roadmap %}</h2>
         <ol>
-          <li class="fragment">Visualisation de données</li>
-          <li class="fragment">Visualisation de données pour le web</li>
-          <li class="fragment">Visualisation de données pour le web avec D3.js</li>
+          <li class="fragment">{%= roadmap_data_viz %}</li>
+          <li class="fragment">{%= roadmap_web %}</li>
+          <li class="fragment">{%= roadmap_d3 %}</li>
         </ol>
       </section>
 
       <section id="data-viz">
-        <h2>Visualisation de données</h2>
+        <h2>{%= title_data_viz %}</h2>
       </section>
 
       <section id="data">
-        <h2>Données</h2>
+        <h2>{%= title_data %}</h2>
         <ul>
-          <li class="fragment">De plus en plus de données produites</li>
-          <li class="fragment">De plus en plus de données ouvertes<br>
+          <li class="fragment">{%= more_data_produced %}</li>
+          <li class="fragment">{%= more_open_data %}<br>
             <img alt="WikiLeaks" src="../img/wikileaks-logo.svg" height="200" class="fragment"> <img alt="Enron Corpus" src="../img/enron-logo.svg" height="200" class="fragment"> <img alt="MTA" src="../img/mta-logo.svg" height="200" class="fragment"> <span class="fragment">APIs</span>
           </li>
-          <li class="fragment"><em>Important de visualiser ces données</em></li>
+          <li class="fragment"><em>{%= important_visualize %}</em></li>
           <li class="fragment">Data-driven journalism
             <ul class="fragment">
               <li><a href="http://www.theguardian.com/news/datablog">The Guardian</a></li>
@@ -91,8 +92,8 @@
       </section>
 
       <section id="trendy">
-        <h2>Très à la mode</h2>
-        <p class="fragment">Mais rien de neuf</p>
+        <h2>{%= title_trendy %}</h2>
+        <p class="fragment">{%= nothing_new %}</p>
       </section>
 
       <section id="minard-napoleon" data-background="../img/minard-napoleon.png" data-background-size="contain">
@@ -111,12 +112,12 @@
       </section>
 
       <section id="pie-charts">
-        <h2>Camemberts</h2>
+        <h2>{%= title_pie_charts %}</h2>
         <img alt="Camembert" src="../img/pie-chart.png" style="background:white">
       </section>
 
       <section id="pie-charts-3d">
-        <h2>Camemberts 3D</h2>
+        <h2>{%= title_pie_charts_3d %}</h2>
         <img alt="Camembert 3D" src="../img/pie-chart-3d.png" style="background:white"><br>
         <img alt="Camembert" src="../img/pie-chart.png" style="background:white" class="fragment">
       </section>
@@ -125,7 +126,7 @@
       </section>
 
       <section id="web">
-        <h2>Visualisation de données<br>pour le web</h2>
+        <h2>{%= title_web %}</h2>
       </section>
 
       <section id="world-wide-web">
@@ -139,7 +140,7 @@
           <li class="fragment">URL</li>
           <li class="fragment">HTML</li>
         </ol>
-        <p class="fragment">Naviguer d'une page à l'autre via des hyperliens</p>
+        <p class="fragment">{%= navigate %}</p>
       </section>
 
       <section id="click-here">
@@ -154,46 +155,46 @@
       <section id="svg-canvas">
         <img alt="SVG logo" src="../img/svg-logo.svg" height="400"><img alt="Canvas logo" src="../img/canvas-logo.png" height="400" style="padding:10px;background:white" class="fragment">
         <br>
-        <p class="fragment">Vectoriel vs Bitmap</p>
-        <p class="fragment"><em>Retained mode vs Immediate mode</em></p>
+        <p class="fragment">{%= vectorial_bitmap %}</p>
+        <p class="fragment"><em>{%= retained_immediate %}</em></p>
       </section>
 
       <section id="retained-immediate">
         <table>
           <thead>
             <tr>
-              <th>Retained mode<br>(SVG)</th>
-              <th>Immediate mode<br>(Canvas)</th>
+              <th>{%= retained %}</th>
+              <th>{%= immediate %}</th>
             </tr>
           </thead>
           <tbody>
             <tr class="fragment">
-              <td>Modèle complet des objets graphiques</td>
-              <td>Dessine et oublie</td>
+              <td>{%= retained_model %}</td>
+              <td>{%= immediate_model %}</td>
             </tr>
             <tr class="fragment">
-              <td>Rendu géré par le moteur</td>
-              <td>Contrôle complet du rendu</td>
+              <td>{%= retained_rendering %}</td>
+              <td>{%= immediate_rendering %}</td>
             </tr>
             <tr class="fragment">
-              <td>Attacher des listeners/handlers aux objets graphiques</td>
-              <td>Interactions via les coordonnées de la souris</td>
+              <td>{%= retained_events %}</td>
+              <td>{%= immediate_events %}</td>
             </tr>
             <tr class="fragment">
-              <td>Performances OK avec nombre d'objets raisonnables</td>
-              <td>Performances "constantes"</td>
+              <td>{%= retained_perf %}</td>
+              <td>{%= immediate_perf %}</td>
             </tr>
           </tbody>
         </table>
       </section>
 
       <section id="d3">
-        <h2>Visualisation de données<br>pour le web avec D3.js</h2>
+        <h2>{%= title_d3 %}</h2>
       </section>
 
       <section id="popularity">
         <img alt="GitHub most starred repositories" src="../img/github-most-starred-repositories.png" height="650">
-        <p><em>14 octobre 2013</em></p>
+        <p><em>{%= date_2013_10_14 %}</em></p>
       </section>
 
       <section id="mbostock">
@@ -202,11 +203,11 @@
       </section>
 
       <section id="example">
-        <h2>Un exemple</h2>
+        <h2>{%= example %}</h2>
       </section>
 
       <section id="example-data">
-        <h2>Nos données</h2>
+        <h2>{%= example_data %}</h2>
         <table class="fragment">
           <thead>
             <tr>
@@ -267,18 +268,18 @@
       </section>
 
       <section id="example-visualization">
-        <h2>Notre visualisation</h2>
+        <h2>{%= example_visualization %}</h2>
         <ul>
-          <li class="fragment">personne <span class="fragment">&rarr; cercle</span></li>
-          <li class="fragment">âge <span class="fragment">&rarr; axe des x</span></li>
-          <li class="fragment">taille <span class="fragment">&rarr; axe des y</span></li>
-          <li class="fragment">poids <span class="fragment">&rarr; diamètre</span></li>
+          <li class="fragment">{%= person %} <span class="fragment">&rarr; {%= circle %}</span></li>
+          <li class="fragment">{%= age %} <span class="fragment">&rarr; {%= x_axis %}</span></li>
+          <li class="fragment">{%= height %} <span class="fragment">&rarr; {%= y_axis %}</span></li>
+          <li class="fragment">{%= weight %} <span class="fragment">&rarr; {%= diameter %}</span></li>
         </ul>
         <img alt="Visualization Result" src="../img/visualization-result.svg" class="fragment">
       </section>
 
       <section id="example-svg">
-        <h2>Source SVG</h2>
+        <h2>{%= svg_source %}</h2>
         <pre><code class="language-xml" contenteditable="true" data-noescape>&lt;svg width="640" height="480">
 <span class="fragment">  &lt;circle cx="24"  cy="280" r="17" opacity=".5"/></span>
 <span class="fragment">  &lt;circle cx="12"  cy="304" r="12" opacity=".5"/>
@@ -288,11 +289,11 @@
   &lt;circle cx="48"  cy="226" r="25" opacity=".5"/>
   &lt;circle cx="300" cy="160" r="83" opacity=".5"/></span>
 &lt;/svg></code></pre>
-        <p class="fragment"><em>Axe des y inversé (origine en haut à gauche)</em></p>
+        <p class="fragment"><em>{%= y_axis_inverted %}</em></p>
       </section>
 
       <section id="example-html">
-        <h2>Notre HTML</h2>
+        <h2>{%= example_html %}</h2>
         <pre><code class="language-xml" contenteditable="true" data-noescape>&lt;!DOCTYPE html>
 &lt;html lang="en">
 &lt;head>
@@ -312,7 +313,7 @@
 
       <section id="package-managers">
         <h2>Package Managers</h2>
-        <p><em>Disponible sur</em></p>
+        <p><em>{%= package_managers_available %}</em></p>
         <ul class="no-bullets centered">
           <li><img alt="NPM logo" src="../img/npm-logo.png" height="100"></li>
           <li><img alt="Bower logo" src="../img/bower-logo.png" height="150"></li>
@@ -324,7 +325,7 @@
       </section>
 
       <section id="example-js">
-        <h2>Notre JavaScript</h2>
+        <h2>{%= example_js %}</h2>
         <pre><code class="language-javascript" contenteditable="true" data-noescape>// main.js
 
 
@@ -340,7 +341,7 @@
       </section>
 
       <section id="example-data-json">
-        <h2>Nos données en JSON</h2>
+        <h2>{%= example_data_json %}</h2>
         <pre><code class="language-json" contenteditable="true" data-noescape>[
   {"name": "Alice",     "age":  4, "height": 100, "weight": 17},
   {"name": "Bruno",     "age":  2, "height":  88, "weight": 12},
@@ -350,11 +351,11 @@
   {"name": "Françoise", "age":  8, "height": 127, "weight": 25},
   {"name": "Gégé",      "age": 50, "height": 160, "weight": 83}
 ]</code></pre>
-        <p class="fragment"><em>Format natif</em></p>
+        <p class="fragment"><em>{%= data_json_native %}</em></p>
       </section>
 
       <section id="example-data-csv">
-        <h2>Nos données en CSV</h2>
+        <h2>{%= example_data_csv %}</h2>
         <pre><code contenteditable="true" data-noescape>name,age,height,weight
 Alice,4,100,17
 Bruno,2,88,12
@@ -363,11 +364,11 @@ Dédé,25,168,67
 Etienne,42,182,80
 Françoise,8,127,25
 Gégé,50,160,83</code></pre>
-        <p class="fragment"><em>Plus compact que JSON</em></p>
+        <p class="fragment"><em>{%= data_csv_compact %}</em></p>
       </section>
 
       <section id="requests">
-        <h2>Récupération des données</h2>
+        <h2>{%= data_retrieval %}</h2>
         <pre><code class="language-javascript" contenteditable="true" data-noescape><span class="fragment" data-fragment-index="1">d3.json(<span class="fragment" data-fragment-index="2">'path/to/file.json'</span><span class="fragment" data-fragment-index="3">, function(error, dataset) {
   <span class="fragment" data-fragment-index="4">if (error) return console.warn(error);</span>
   <span class="fragment" data-fragment-index="5">// TODO: Visualize the dataset</span>
@@ -387,12 +388,12 @@ d3.csv('path/to/file.csv', visualize);</span></code></pre>
       </section>
 
       <section id="requests-result">
-        <h2>Récupération des données</h2>
+        <h2>{%= data_retrieval %}</h2>
         <img alt="D3 dataset" src="../img/d3-dataset.png">
       </section>
 
       <section id="select">
-        <h2>Sélection</h2>
+        <h2>{%= selection %}</h2>
         <pre><code class="language-javascript" contenteditable="true" data-noescape><span class="fragment">d3.select('body');</span>
 <span class="fragment">d3.select('.class');</span>
 <span class="fragment">d3.select('#id');</span>
@@ -402,11 +403,11 @@ d3.csv('path/to/file.csv', visualize);</span></code></pre>
 <span class="fragment">d3.select('.this, .that');</span>
 
 <span class="fragment">var placeholder = d3.select('#placeholder');</span></code></pre>
-        <p class="fragment"><em>Inclure Sizzle au besoin</em></p>
+        <p class="fragment"><em>{%= include_sizzle %}</em></p>
       </section>
 
       <section id="selectall">
-        <h2>Sélection</h2>
+        <h2>{%= selection %}</h2>
         <pre><code class="language-javascript" contenteditable="true" data-noescape>d3.selectAll('body');
 d3.selectAll('.class');
 d3.selectAll('#id'); // FIXME: Non-unique IDs?
@@ -416,11 +417,11 @@ d3.selectAll('.this.that');
 d3.selectAll('.this, .that');
 
 var placeholders = d3.selectAll('.placeholder');</code></pre>
-        <p><em>Inclure Sizzle au besoin</em></p>
+        <p><em>{%= include_sizzle %}</em></p>
       </section>
 
       <section id="operations">
-        <h2>Opérations sur les sélections</h2>
+        <h2>{%= operations_on_selections %}</h2>
         <pre><code class="language-javascript" contenteditable="true" data-noescape><span class="fragment">var imgs = d3.selectAll('img')
 </span><span class="fragment">             .attr('title', 'Tooltips for everyone!');
 </span><span class="fragment">
@@ -438,13 +439,13 @@ var svg = d3.select('#placeholder')
             .append('svg')
 </span><span class="fragment">              .attr('width',  640)
               .attr('height', 480);</span></code></pre>
-        <p class="fragment"><em>Interface fluide (chaînage de méthodes)</em></p>
-        <p class="fragment"><em>Chaînes de caractères = pas de limitations liées à la librairie</em></p>
-        <p class="fragment"><em><code>append</code> et <code>insert</code> retournent une nouvelle sélection</em></p>
+        <p class="fragment"><em>{%= fluent_interface %}</em></p>
+        <p class="fragment"><em>{%= strings_limitations %}</em></p>
+        <p class="fragment"><em>{%= new_selection %}</em></p>
       </section>
 
       <section id="example-js-back">
-        <h2>Retour sur notre exemple</h2>
+        <h2>{%= example_back %}</h2>
         <pre><code class="language-javascript" contenteditable="true" data-noescape><span class="fragment" data-fragment-index="1">var svg = d3.select('#placeholder')
             .append('svg')
               .attr('width',  640)
@@ -459,7 +460,7 @@ d3.csv('path/to/file.csv', visualize);</span></code></pre>
       </section>
 
       <section id="example-loop">
-        <h2>Visualisation</h2>
+        <h2>{%= visualization %}</h2>
         <pre><code class="language-javascript" contenteditable="true" data-noescape>var visualize = function(error, dataset) {
   if (error) return console.warn(error);
 <span class="fragment">
@@ -475,13 +476,13 @@ d3.csv('path/to/file.csv', visualize);</span></code></pre>
       </section>
 
       <section id="example-loop-result">
-        <h2>Résultat</h2>
+        <h2>{%= result %}</h2>
         <img alt="Visualization Result" src="../img/visualization-result.svg">
-        <p class="fragment"><em>Fin<span class="fragment">?</span></em></p>
+        <p class="fragment"><em>{%= the_end %}<span class="fragment">?</span></em></p>
       </section>
 
       <section id="example-data-extra">
-        <h2>Nos données... <span class="fragment" data-fragment-index="1">en plus</span></h2>
+        <h2>{%= example_data %}... <span class="fragment" data-fragment-index="1">{%= extra %}</span></h2>
         <table class="small-text" style="display: inline-table">
           <thead>
             <tr>
@@ -586,7 +587,7 @@ d3.csv('path/to/file.csv', visualize);</span></code></pre>
       </section>
 
       <section id="example-loop-remove">
-        <h2>Visualisation v1.1</h2>
+        <h2>{%= visualization %} v1.1</h2>
         <pre><code class="language-javascript" contenteditable="true" data-noescape><span class="fragment" data-fragment-index="3">var visualize = function(error, dataset) {
   if (error) return console.warn(error);
 <span class="fragment" data-fragment-index="4">
@@ -603,26 +604,26 @@ d3.csv('path/to/dataset-2000.csv', visualize);
 </span><span class="fragment" data-fragment-index="2">
 // Called later...
 d3.csv('path/to/dataset-2005.csv', visualize);</span></code></pre>
-        <p class="fragment" data-fragment-index="5"><em>Sélection d'une sélection</em> <code>d3.select('svg').selectAll('circle')</code></p>
+        <p class="fragment" data-fragment-index="5"><em>{%= selection_of_selection %}</em> <code>d3.select('svg').selectAll('circle')</code></p>
       </section>
 
       <section id="example-loop-remove-result">
-        <h2>Résultat v1.1</h2>
+        <h2>{%= result %} v1.1</h2>
         <p class="placeholder"></p>
         <span class="fragment"></span>
-        <p class="fragment"><em>Sans animation, c'est pas la joie!</em></p>
+        <p class="fragment"><em>{%= no_animation %}</em></p>
       </section>
 
       <section id="example-loop-discard">
-        <h2>On jette tout et on recommence?</h2>
+        <h2>{%= discard %}</h2>
       </section>
 
       <section id="example-bind-todo">
         <h2>TODO v2.0</h2>
         <ol>
-          <li class="fragment">Préserver les cercles</li>
-          <li class="fragment">Transitions (interpoler positions et diamètres)</li>
-          <li class="fragment">Apparitions et disparitions</li>
+          <li class="fragment">{%= keep_circles %}</li>
+          <li class="fragment">{%= transitions %}</li>
+          <li class="fragment">{%= enter_exit %}</li>
         </ol>
       </section>
 
@@ -637,7 +638,7 @@ d3.csv('path/to/dataset-2005.csv', visualize);</span></code></pre>
       </section>
 
       <section id="example-bind-1">
-        <h2>Visualisation v2.0</h2>
+        <h2>{%= visualization %} v2.0</h2>
         <pre><code class="language-javascript stretch" contenteditable="true" data-noescape>var visualize = function(error, dataset) {
   if (error) return console.warn(error);
 <span class="fragment" data-fragment-index="1">
@@ -671,7 +672,7 @@ d3.csv('path/to/dataset-2005.csv', visualize);</span></code></pre>
       </section>
 
       <section id="example-bind-2">
-        <h2>Visualisation v2.0</h2>
+        <h2>{%= visualization %} v2.0</h2>
         <pre><code class="language-javascript stretch" contenteditable="true" data-noescape>// UPDATE
 circles
 <span class="fragment" data-fragment-index="3">  .transition().duration(750)
@@ -695,7 +696,7 @@ circles
       </section>
 
       <section id="example-bind-3">
-        <h2>Visualisation v2.0</h2>
+        <h2>{%= visualization %} v2.0</h2>
         <pre><code class="language-javascript" contenteditable="true" data-noescape>var positionAndSizeCircle = function(circle) {
   circle
     .attr('r', function(d) {
@@ -712,13 +713,13 @@ circles
       </section>
 
       <section id="example-bind-result">
-        <h2>Résultat v2.0</h2>
+        <h2>{%= result %} v2.0</h2>
         <p class="placeholder"></p>
         <span class="fragment"></span>
       </section>
 
       <section id="remaining">
-        <h2>Reste à faire</h2>
+        <h2>{%= remaining %}</h2>
         <ul>
           <li class="fragment">Scales (domain, range)</li>
           <li class="fragment">Axes</li>
@@ -728,7 +729,7 @@ circles
       </section>
 
       <section id="advanced-examples">
-        <h2>Exemples plus poussés</h2>
+        <h2>{%= advanced_examples %}</h2>
         <ul>
           <li><a href="http://bl.ocks.org/mbostock/929623">Build Your Own Graph!</a></li>
           <li><a href="http://bl.ocks.org/mbostock/3231298">Collision Detection</a></li>
@@ -738,62 +739,62 @@ circles
       </section>
 
       <section id="books">
-        <h2>Livres</h2>
+        <h2>{%= books %}</h2>
         <img alt="Getting Started with D3" src="../img/oreilly-getting-started-with-d3.jpg" height="400" class="fragment">&nbsp;<img alt="Interactive Data Visualization" src="../img/oreilly-interactive-data-visualization.jpg" height="400" class="fragment">
       </section>
 
       <section id="conclusion">
         <h2>Conclusion</h2>
         <ul>
-          <li class="fragment">Choix technologiques</li>
-          <li class="fragment">Prendre le temps de la réflexion</li>
-          <li class="fragment">Expérimentation</li>
-          <li class="fragment">Minutie</li>
+          <li class="fragment">{%= technology_choice %}</li>
+          <li class="fragment">{%= reflexion %}</li>
+          <li class="fragment">{%= trial_error %}</li>
+          <li class="fragment">{%= meticulousness %}</li>
         </ul>
       </section>
 
       <section id="credits">
-        <h2>Crédits</h2>
-        <p>Cette présentation a été créée avec</p>
-        <p><em>du code</em></p>
+        <h2>{%= credits %}</h2>
+        <p>{%= presentation_created_with %}</p>
+        <p><em>{%= some_code %}</em></p>
         <ul class="small-text no-bullets credits">
-          <li><a href="http://d3js.org/">D3.js</a> <span class="author">par <a href="http://bost.ocks.org/mike/">Mike Bostock</a> (BSD 3-Clause)</span></li>
-          <li><a href="http://lab.hakim.se/reveal-js/">Reveal.js</a> <span class="author">par <a href="http://hakim.se/">Hakim El Hattab</a> (MIT)</span></li>
-          <li><a href="http://softwaremaniacs.org/soft/highlight/en/">Highlight.js</a> <span class="author">par <a href="http://softwaremaniacs.org/about/en/">Ivan Sagalaev</a> (BSD 3-Clause)</span></li>
-          <li><a href="http://bower.io/">Bower</a> <span class="author">par <a href="http://twitter.com/about">Twitter, Inc.</a> (MIT)</span></li>
-          <li><a href="http://gruntjs.com/">Grunt</a> <span class="author">par <a href="http://benalman.com/">Ben Alman</a> (MIT)</span></li>
+          <li><a href="http://d3js.org/">D3.js</a> <span class="author">{%= by %} <a href="http://bost.ocks.org/mike/">Mike Bostock</a> (BSD 3-Clause)</span></li>
+          <li><a href="http://lab.hakim.se/reveal-js/">Reveal.js</a> <span class="author">{%= by %} <a href="http://hakim.se/">Hakim El Hattab</a> (MIT)</span></li>
+          <li><a href="http://softwaremaniacs.org/soft/highlight/en/">Highlight.js</a> <span class="author">{%= by %} <a href="http://softwaremaniacs.org/about/en/">Ivan Sagalaev</a> (BSD 3-Clause)</span></li>
+          <li><a href="http://bower.io/">Bower</a> <span class="author">{%= by %} <a href="http://twitter.com/about">Twitter, Inc.</a> (MIT)</span></li>
+          <li><a href="http://gruntjs.com/">Grunt</a> <span class="author">{%= by %} <a href="http://benalman.com/">Ben Alman</a> (MIT)</span></li>
         </ul>
-        <p><em>des polices de caractères</em></p>
+        <p><em>{%= some_fonts %}</em></p>
         <ul class="small-text no-bullets credits">
-          <li><a href="http://www.google.com/fonts/specimen/Droid+Serif">Droid Serif</a> <span class="author">par <a href="http://www.ascendercorp.com/about/steve-matteson/">Steve Matteson / Ascender Corporation</a> (Apache)</span></li>
-          <li><a href="http://www.google.com/fonts/specimen/Open+Sans">Open Sans</a> <span class="author">par <a href="http://www.ascendercorp.com/about/steve-matteson/">Steve Matteson / Ascender Corporation</a> (Apache)</span></li>
-          <li><a href="http://www.google.com/fonts/specimen/Source+Code+Pro">Source Code Pro</a> <span class="author">par <a href="http://www.adobe.com/products/type/font-designers/paul-hunt.html">Paul D. Hunt / Adobe Systems, Inc.</a> (SIL)</span></li>
+          <li><a href="http://www.google.com/fonts/specimen/Droid+Serif">Droid Serif</a> <span class="author">{%= by %} <a href="http://www.ascendercorp.com/about/steve-matteson/">Steve Matteson / Ascender Corporation</a> (Apache)</span></li>
+          <li><a href="http://www.google.com/fonts/specimen/Open+Sans">Open Sans</a> <span class="author">{%= by %} <a href="http://www.ascendercorp.com/about/steve-matteson/">Steve Matteson / Ascender Corporation</a> (Apache)</span></li>
+          <li><a href="http://www.google.com/fonts/specimen/Source+Code+Pro">Source Code Pro</a> <span class="author">{%= by %} <a href="http://www.adobe.com/products/type/font-designers/paul-hunt.html">Paul D. Hunt / Adobe Systems, Inc.</a> (SIL)</span></li>
         </ul>
-        <p><em>des pixels</em></p>
+        <p><em>{%= some_pixels %}</em></p>
         <ul class="small-text no-bullets credits">
-          <li><a href="http://www.iconarchive.com/show/cheese-icons-by-snaky-reports/Supreme-icon.html">Camembert favicon</a> <span class="author">par <a href="http://www.iconarchive.com/artist/snaky-reports.html">Meramera</a> (non-commercial)</span></li>
-          <li><a href="http://subtlepatterns.com/cartographer/">Cartographer pattern</a> <span class="author">par <a href="http://sam.feyaerts.me/">Sam Feyaerts</a> (CC BY-SA 3.0)</span></li>
+          <li><a href="http://www.iconarchive.com/show/cheese-icons-by-snaky-reports/Supreme-icon.html">Camembert favicon</a> <span class="author">{%= by %} <a href="http://www.iconarchive.com/artist/snaky-reports.html">Meramera</a> (non-commercial)</span></li>
+          <li><a href="http://subtlepatterns.com/cartographer/">Cartographer pattern</a> <span class="author">{%= by %} <a href="http://sam.feyaerts.me/">Sam Feyaerts</a> (CC BY-SA 3.0)</span></li>
         </ul>
       </section>
 
       <section id="image-credits">
-        <h2>Crédits graphiques</h2>
+        <h2>{%= image_credits %}</h2>
         <div>
           <ul class="extra-small-text no-bullets image-credits">
-            <li><a href="http://en.wikipedia.org/wiki/File:Camembert_(Cheese).jpg"><img alt="Camembert" src="../img/camembert.jpg"></a> par <a href="http://fr.wikipedia.org/wiki/Utilisateur:Nataraja">Nataraja</a> (CC BY-SA 3.0)</li>
-            <li><a href="http://en.wikipedia.org/wiki/File:Ecole-Ing%C3%A9nieurs-Gen%C3%A8ve.jpg"><img alt="Ecole d'Ingénieurs de Genève" src="../img/ecole-d-ingenieurs-de-geneve.jpg"></a> par <a href="http://fr.wikipedia.org/wiki/Utilisateur:Flo">Flo</a> (CC BY-SA-2.5)</li>
-            <li><a href="http://en.wikipedia.org/wiki/File:CERN_Tram,_line_number_18.jpg"><img alt="CERN" src="../img/cern.jpg"></a> par <a href="http://en.wikipedia.org/wiki/User:Darkzink">Darkzink</a> (CC0 1.0)</li>
+            <li><a href="http://en.wikipedia.org/wiki/File:Camembert_(Cheese).jpg"><img alt="Camembert" src="../img/camembert.jpg"></a> {%= by %} <a href="http://fr.wikipedia.org/wiki/Utilisateur:Nataraja">Nataraja</a> (CC BY-SA 3.0)</li>
+            <li><a href="http://en.wikipedia.org/wiki/File:Ecole-Ing%C3%A9nieurs-Gen%C3%A8ve.jpg"><img alt="Ecole d'Ingénieurs de Genève" src="../img/ecole-d-ingenieurs-de-geneve.jpg"></a> {%= by %} <a href="http://fr.wikipedia.org/wiki/Utilisateur:Flo">Flo</a> (CC BY-SA-2.5)</li>
+            <li><a href="http://en.wikipedia.org/wiki/File:CERN_Tram,_line_number_18.jpg"><img alt="CERN" src="../img/cern.jpg"></a> {%= by %} <a href="http://en.wikipedia.org/wiki/User:Darkzink">Darkzink</a> (CC0 1.0)</li>
             <li><a href="http://en.wikipedia.org/wiki/File:Minard.png"><img alt="Minard's flow map of Napoleon's March" src="../img/minard-napoleon.png"></a> © 1869 <a href="http://en.wikipedia.org/wiki/Charles_Joseph_Minard">Charles Joseph Minard</a></li>
             <li><a href="http://en.wikipedia.org/wiki/File:Minard%E2%80%99s_map_of_French_wine_exports_for_1864.jpg"><img alt="Minard’s map of French wine exports for 1864" src="../img/minard-wine.jpg"></a> © 1865 <a href="http://en.wikipedia.org/wiki/Charles_Joseph_Minard">Charles Joseph Minard</a></li>
             <li><a href="http://en.wikipedia.org/wiki/File:Nightingale-mortality.jpg"><img alt="Nightingale's diagram of the causes of mortality in the army in the East" src="../img/nightingale-mortality.jpg"></a> © 1858 <a href="http://en.wikipedia.org/wiki/Florence_Nightingale">Florence Nightingale</a></li>
-            <li><img alt="Microsoft Excel Insert Chart" src="../img/excel-insert-chart.png"> Utilisé avec la permission de <a href="http://www.microsoft.com/permission">Microsoft</a></li>
-            <li><a href="http://www.flickr.com/photos/stml/3258048494/"><img alt="Notepad" src="../img/notepad.jpg"></a> par <a href="http://www.flickr.com/people/stml/">STML</a> (CC BY-NC-ND 2.0)</li>
+            <li><img alt="Microsoft Excel Insert Chart" src="../img/excel-insert-chart.png"> {%= used_permission %} <a href="http://www.microsoft.com/permission">Microsoft</a></li>
+            <li><a href="http://www.flickr.com/photos/stml/3258048494/"><img alt="Notepad" src="../img/notepad.jpg"></a> {%= by %} <a href="http://www.flickr.com/people/stml/">STML</a> (CC BY-NC-ND 2.0)</li>
           </ul>
         </div>
         <div>
           <ul class="extra-small-text no-bullets image-credits">
-            <li><a href="http://en.wikipedia.org/wiki/File:Sample_Pie_Chart.png"><img alt="Camembert" src="../img/pie-chart.png" style="background:white"></a> par <a href="http://en.wikipedia.org/wiki/User:Smallman12q">Smallman12q</a> (CC0 1.0)</li>
-            <li><a href="http://en.wikipedia.org/wiki/File:Misleading_Pie_Chart.png"><img alt="Camembert 3D" src="../img/pie-chart-3d.png" style="background:white"></a> par <a href="http://en.wikipedia.org/wiki/User:Smallman12q">Smallman12q</a> (CC0 1.0)</li>
+            <li><a href="http://en.wikipedia.org/wiki/File:Sample_Pie_Chart.png"><img alt="Camembert" src="../img/pie-chart.png" style="background:white"></a> {%= by %} <a href="http://en.wikipedia.org/wiki/User:Smallman12q">Smallman12q</a> (CC0 1.0)</li>
+            <li><a href="http://en.wikipedia.org/wiki/File:Misleading_Pie_Chart.png"><img alt="Camembert 3D" src="../img/pie-chart-3d.png" style="background:white"></a> {%= by %} <a href="http://en.wikipedia.org/wiki/User:Smallman12q">Smallman12q</a> (CC0 1.0)</li>
             <li><a href="http://extremepresentation.typepad.com/files/choosing-a-good-chart-09.pdf"><img alt="Choosing a good chart" src="../img/choosing-a-good-chart.png"></a> © 2009 <a href="http://www.extremepresentation.com/">Andrew Abela</a></li>
             <li><a href="http://cds.cern.ch/record/39437"><img alt="Tim Berners-Lee" src="../img/tim-berners-lee.jpg"></a> © 1994 <a href="http://copyright.web.cern.ch/">CERN</a></li>
             <li><a href="http://cds.cern.ch/record/39587"><img alt="Robert Cailliau" src="../img/robert-cailliau.jpg"></a> © 1995 <a href="http://copyright.web.cern.ch/">CERN</a></li>
@@ -804,7 +805,7 @@ circles
 
       <section id="thanks" class="title-slide" data-background="../img/camembert.jpg">
         <div class="container">
-          <h1 class="fragment" data-fragment-index="1">Merci!</h1>
+          <h1 class="fragment" data-fragment-index="1">{%= thanks %}</h1>
           <hr class="fragment" data-fragment-index="1">
           <p>
             Slides: <a href="http://ptamarit.com/slides-data-viz-web-d3/">ptamarit.com/slides-data-viz-web-d3</a><br>

@@ -1,0 +1,134 @@
+{
+  "lang": "en",
+
+  "title_head": "Data visualization for the web with D3.js",
+  "subtitle_head": "So long pie charts",
+
+  "title": "Data visualization<br>for the web with D3.js",
+  "subtitle": "So long pie charts*",
+  "subtitle_asterisk": "<footer><em>* Camembert is a French colloquialism for pie charts</em></footer>",
+
+  "roadmap_data_viz": "Data visualization",
+  "title_data_viz": "Data visualization",
+
+  "roadmap_web": "Data visualization for the web",
+  "title_web": "Data visualization<br>for the web",
+
+  "roadmap_d3": "Data visualization for the web with D3.js",
+  "title_d3": "Data visualization<br>for the web with D3.js",
+
+  "work": "Work",
+  "freetime": "Freetime",
+  "visual_results": "Visual results",
+
+  "roadmap": "Roadmap",
+
+  "title_data": "Data",
+  "more_data_produced": "More and more data produced",
+  "more_open_data": "More and more open data",
+  "important_visualize": "Importance of visualizing this data",
+
+  "title_trendy": "Very trendy",
+  "nothing_new": "But nothing new",
+
+  "title_pie_charts": "Pie charts",
+  "title_pie_charts_3d": "3D pie charts",
+
+  "navigate": "Navigate from one page to the other via hyperlinks",
+
+  "vectorial_bitmap": "Vectorial vs. Bitmap",
+  "retained_immediate": "Retained mode vs. Immediate mode",
+
+  "retained": "Retained mode<br>(SVG)",
+  "immediate": "Immediate mode<br>(Canvas)",
+  "retained_model": "Complete model of the graphical objects",
+  "immediate_model": "Draw and forget",
+  "retained_rendering": "Rendering managed by the engine",
+  "immediate_rendering": "Full control over rendering",
+  "retained_events": "Handlers can be attached to graphical elements",
+  "immediate_events": "Interactions from mouse coordinates",
+  "retained_perf": "Good performances with a reasonable number of objects",
+  "immediate_perf": "\"Constant\" performances",
+
+  "date_2013_10_14": "14 October 2013",
+
+  "example": "An example",
+
+  "example_data": "Sample data",
+
+  "example_visualization": "Sample visualization",
+  "person": "person",
+  "circle": "circle",
+  "age": "age",
+  "x_axis": "x-axis",
+  "height": "height",
+  "y_axis": "y-axis",
+  "weight": "weight",
+  "diameter": "diameter",
+
+  "svg_source": "SVG source",
+  "y_axis_inverted": "Inverted y-axis (origin at top left)",
+
+  "example_html": "Sample HTML",
+
+  "package_managers_available": "Available at",
+
+  "example_js": "Sample JavaScript",
+
+  "example_data_json": "Sample data in JSON",
+  "data_json_native": "Native format",
+  "example_data_csv": "Sample data in CSV",
+  "data_csv_compact": "More compact than JSON",
+
+  "data_retrieval": "Data retrieval",
+
+  "selection": "Selection",
+  "include_sizzle": "Include Sizzle if needed",
+
+  "operations_on_selections": "Operations on selections",
+  "fluent_interface": "Fluent interface (method chaining)",
+  "strings_limitations": "Strings = no limitations linked to the library",
+  "new_selection": "<code>append</code> and <code>insert</code> return a new selection",
+
+  "example_back": "Back to our example",
+
+  "visualization": "Visualization",
+
+  "result": "Result",
+  "the_end": "The End",
+
+  "extra": "and more",
+
+  "selection_of_selection": "Selection of a selection",
+
+  "no_animation": "No animation... no fun!",
+
+  "discard": "Throw it out and go back to the drawing board?",
+
+  "keep_circles": "Keep the circles",
+  "transitions": "Transitions (interpolate positions and diameters)",
+  "enter_exit": "Appearances and disappearances",
+
+  "remaining": "What's left",
+
+  "advanced_examples": "Advanced examples",
+
+  "books": "Books",
+
+  "technology_choice": "Technology choice",
+  "reflexion": "Take time to think about it",
+  "trial_error": "Trial and error",
+  "meticulousness": "Meticulousness",
+
+  "credits": "Credits",
+  "presentation_created_with": "This presentation has been created with",
+  "some_code": "some code",
+  "some_fonts": "some fonts",
+  "some_pixels": "some pixels",
+  "by": "by",
+
+  "image_credits": "Image credits",
+  "used_permission": "Used with permission from",
+
+  "thanks": "Thanks!"
+}

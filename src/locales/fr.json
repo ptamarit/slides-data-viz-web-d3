@@ -1,0 +1,134 @@
+{
+  "lang": "fr",
+
+  "title_head": "Visualisation de données pour le web avec D3.js",
+  "subtitle_head": "Dites adieu aux camemberts",
+
+  "title": "Visualisation de données pour le web avec D3.js",
+  "subtitle": "Dites adieu aux camemberts",
+  "subtitle_asterisk": "",
+
+  "roadmap_data_viz": "Visualisation de données",
+  "title_data_viz": "Visualisation de données",
+
+  "roadmap_web": "Visualisation de données pour le web",
+  "title_web": "Visualisation de données<br>pour le web",
+
+  "roadmap_d3": "Visualisation de données pour le web avec D3.js",
+  "title_d3": "Visualisation de données<br>pour le web avec D3.js",
+
+  "work": "Boulot",
+  "freetime": "Avant le dodo",
+  "visual_results": "Résultats visuels",
+
+  "roadmap": "Au programme",
+
+  "title_data": "Données",
+  "more_data_produced": "De plus en plus de données produites",
+  "more_open_data": "De plus en plus de données ouvertes",
+  "important_visualize": "Important de visualiser ces données",
+
+  "title_trendy": "Très à la mode",
+  "nothing_new": "Mais rien de neuf",
+
+  "title_pie_charts": "Camemberts",
+  "title_pie_charts_3d": "Camemberts 3D",
+
+  "navigate": "Naviguer d'une page à l'autre via des hyperliens",
+
+  "vectorial_bitmap": "Vectoriel vs Bitmap",
+  "retained_immediate": "Retained mode vs Immediate mode",
+
+  "retained": "Retained mode<br>(SVG)",
+  "immediate": "Immediate mode<br>(Canvas)",
+  "retained_model": "Modèle complet des objets graphiques",
+  "immediate_model": "Dessine et oublie",
+  "retained_rendering": "Rendu géré par le moteur",
+  "immediate_rendering": "Contrôle complet du rendu",
+  "retained_events": "Attacher des listeners/handlers aux objets graphiques",
+  "immediate_events": "Interactions via les coordonnées de la souris",
+  "retained_perf": "Performances OK avec nombre d'objets raisonnables",
+  "immediate_perf": "Performances \"constantes\"",
+
+  "date_2013_10_14": "14 octobre 2013",
+
+  "example": "Un exemple",
+
+  "example_data": "Nos données",
+
+  "example_visualization": "Notre visualisation",
+  "person": "personne",
+  "circle": "cercle",
+  "age": "âge",
+  "x_axis": "axe des x",
+  "height": "taille",
+  "y_axis": "axe des y",
+  "weight": "poids",
+  "diameter": "diamètre",
+
+  "svg_source": "Source SVG",
+  "y_axis_inverted": "Axe des y inversé (origine en haut à gauche)",
+
+  "example_html": "Notre HTML",
+
+  "package_managers_available": "Disponible sur",
+
+  "example_js": "Notre JavaScript",
+
+  "example_data_json": "Nos données en JSON",
+  "data_json_native": "Format natif",
+  "example_data_csv": "Nos données en CSV",
+  "data_csv_compact": "Plus compact que JSON",
+
+  "data_retrieval": "Récupération des données",
+
+  "selection": "Sélection",
+  "include_sizzle": "Inclure Sizzle au besoin",
+
+  "operations_on_selections": "Opérations sur les sélections",
+  "fluent_interface": "Interface fluide (chaînage de méthodes)",
+  "strings_limitations": "Chaînes de caractères = pas de limitations liées à la librairie",
+  "new_selection": "<code>append</code> et <code>insert</code> retournent une nouvelle sélection",
+
+  "example_back": "Retour sur notre exemple",
+
+  "visualization": "Visualisation",
+
+  "result": "Résultat",
+  "the_end": "Fin",
+
+  "extra": "en plus",
+
+  "selection_of_selection": "Sélection d'une sélection",
+
+  "no_animation": "Sans animation, c'est pas la joie!",
+
+  "discard": "On jette tout et on recommence?",
+
+  "keep_circles": "Préserver les cercles",
+  "transitions": "Transitions (interpoler positions et diamètres)",
+  "enter_exit": "Apparitions et disparitions",
+
+  "remaining": "Reste à faire",
+
+  "advanced_examples": "Exemples plus poussés",
+
+  "books": "Livres",
+
+  "technology_choice": "Choix technologiques",
+  "reflexion": "Prendre le temps de la réflexion",
+  "trial_error": "Expérimentation",
+  "meticulousness": "Minutie",
+
+  "credits": "Crédits",
+  "presentation_created_with": "Cette présentation a été créée avec",
+  "some_code": "du code",
+  "some_fonts": "des polices de caractères",
+  "some_pixels": "des pixels",
+  "by": "par",
+
+  "image_credits": "Crédits graphiques",
+  "used_permission": "Utilisé avec la permission de",
+
+  "thanks": "Merci!"
+}
