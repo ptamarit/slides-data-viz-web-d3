@@ -46,8 +46,8 @@ retained_rendering: Rendering managed by the engine
 immediate_rendering: Full control over rendering
 retained_events: Handlers can be attached to graphical elements
 immediate_events: Interactions from mouse coordinates
-retained_perf: Good performances with a reasonable number of objects
-immediate_perf: "\"Constant\" performances"
+retained_perf: Good performance with a reasonable number of objects
+immediate_perf: "\"Constant\" performance"
 
 date_2013_10_14: 14 October 2013
 
