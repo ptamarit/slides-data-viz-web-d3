@@ -1,7 +1,7 @@
 {
   "name": "slides-data-viz-web-d3",
   "dependencies": {
-    "d3": "3.3.11",
+    "d3": "3.3.12",
     "reveal.js": "2.5.0",
     "highlight.js": "https://github.com/isagalaev/highlight.js/archive/7.3.zip"
   }
