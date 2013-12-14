@@ -8,11 +8,11 @@ pt.slideIdToFunctions = {
       'use strict';
       pt.exampleLoop.init();
     },
-    0: function() {
+    '-1': function() {
       'use strict';
       d3.json('../examples/data/example-2000.json', pt.exampleLoop.update);
     },
-    1: function() {
+    0: function() {
       'use strict';
       d3.json('../examples/data/example-2005.json', pt.exampleLoop.update);
     }
@@ -23,11 +23,11 @@ pt.slideIdToFunctions = {
       'use strict';
       pt.exampleBind.init();
     },
-    0: function() {
+    '-1': function() {
       'use strict';
       d3.json('../examples/data/example-2000.json', pt.exampleBind.update);
     },
-    1: function() {
+    0: function() {
       'use strict';
       d3.json('../examples/data/example-2005.json', pt.exampleBind.update);
     }
