@@ -7,6 +7,11 @@ title: Data visualization<br>for the web with D3.js
 subtitle: So long pie charts*
 subtitle_asterisk: <footer><em>* Camembert is a French colloquialism for pie charts</em></footer>
 
+other_lang: fr
+other_lang_speak: Parlez-vous français ?
+other_lang_yes: Oui
+lang_no: No
+
 roadmap_data_viz: Data visualization
 title_data_viz: Data visualization
 

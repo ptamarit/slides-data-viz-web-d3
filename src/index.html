@@ -3,8 +3,25 @@
 <head>
   <meta charset="utf-8">
   <title>Data visualization for the web with D3.js / Visualisation de données pour le web avec D3.js</title>
-  <meta http-equiv="refresh" content="0; url=fr/">
 </head>
 <body>
+
+<noscript>
+  <ul>
+    <li><a href="en/">Data visualization for the web with D3.js (English)</a></li>
+    <li><a href="fr/">Visualisation de données pour le web avec D3.js (Français)</a></li>
+  </ul>
+</noscript>
+
+<script type="text/javascript">
+  var lang;
+  try {
+    lang = localStorage.getItem('lang');
+  } catch(e) { }
+  lang = lang || (window.navigator.userLanguage || window.navigator.language).substring(0,2);
+  if (lang != 'fr') lang = 'en';
+  document.location.href = lang + "/";
+</script>
+
 </body>
 </html>

@@ -2,6 +2,25 @@
  * PRESENTATION-SPECIFIC STYLES
  *********************************************/
 
+nav {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+
+  font-size: 12px;
+  line-height: 15px;
+
+  color: #000000;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+nav a {
+  color: #000000;
+}
+
 .reveal .title-slide .container {
   /*
   The p element already has a bottom padding of 10px, so we only set a top, left and right ones.

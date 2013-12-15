@@ -19,12 +19,18 @@
   <!-- Custom reveal theme -->
   <link rel="stylesheet" href="../css/reveal-theme-camembert.css">
   <!-- Presentation-specific styles -->
+  <link rel="stylesheet" href="../css/speech-bubble.css">
   <link rel="stylesheet" href="../css/main.css">
   <!-- For syntax highlighting -->
   <link rel="stylesheet" href="../bower_components/reveal.js/lib/css/zenburn.css">
   <!-- endbuild -->
 </head>
 <body>
+
+  <nav>
+    <p class="speech-bubble">{%= other_lang_speak %}<br><a href="../{%= other_lang %}/" class="other-lang-yes">{%= other_lang_yes %}</a> / <a href="#" class="lang-no">{%= lang_no %}</a></p>
+  </nav>
+
   <div class="reveal">
     <div class="slides">
 
@@ -838,6 +844,9 @@ circles
 
   <!-- REVEAL INIT -->
   <script src="../js/reveal-init.js"></script>
+
+  <!-- GLOBAL INIT -->
+  <script src="../js/lang-switcher.js"></script>
 
   <!-- endbuild -->
 

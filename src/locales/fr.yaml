@@ -7,6 +7,11 @@ title: Visualisation de données pour le web avec D3.js
 subtitle: Dites adieu aux camemberts
 subtitle_asterisk:
 
+other_lang: en
+other_lang_speak: Do you speak English?
+other_lang_yes: Yes
+lang_no: Non
+
 roadmap_data_viz: Visualisation de données
 title_data_viz: Visualisation de données
 
