@@ -209,7 +209,7 @@ module.exports = function(grunt) {
     'gh-pages': {
       options: {
         base: 'dist',
-        message: 'autocommit <%= grunt.template.today("isoDateTime") %>',
+        message: 'Automatic publishing (<%= grunt.template.today("isoDateTime") %>)',
         repo: 'https://' + process.env.GH_TOKEN + '@<%= pkg.repository.url.substring("git://".length) %>',
         user: {
           name: '<%= pkg.author.name %>',
