@@ -5,6 +5,10 @@
     "type": "git",
     "url": "git://github.com/ptamarit/slides-data-viz-web-d3.git"
   },
+  "author": {
+    "name": "Pablo Tamarit",
+    "email": "pablo.tmrt@gmail.com"
+  },
   "devDependencies": {
     "grunt": "~0.4.1",
     "load-grunt-tasks": "~0.2.0",
