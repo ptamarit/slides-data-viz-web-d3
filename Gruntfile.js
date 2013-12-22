@@ -214,7 +214,7 @@ module.exports = function(grunt) {
         user: {
           name: 'test',
           email: 'user@example.com'
-        }
+        },
         silent: true
       },
       src: '**/*'
