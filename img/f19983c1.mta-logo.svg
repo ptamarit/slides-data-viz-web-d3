@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500">
+<title>MTA NYC logo</title><ellipse cx="237.5" cy="250" rx="262.5" ry="245" stroke="none" fill="#2360a5" /><!-- #0060a9 has also been used -->
+<g stroke="none" fill="white">
+ <path d="M 19,113 L 92,125 112,267 H 113 L 135,132 208,144 V 363 L 162,370 V 276 L 163,229 H 161 L 134,375 88,382 54,225 H 52 L 55,280 V 388 L 24,393 A 262.5 245 0 0 1 19,113" /> <path id="T" d="M 330,210 L 301,208 V 348 L 259,354 V 204 L 223,201 V 146 L 330,164 V 210 Z" />  <path id="A" d="M 411,330 386,334 383,313 358,316 355,339 322,344 355,168 385,173 411,330 Z M 378,279 371,225 H 370 L 363,280 378,279
+Z" /> 
+</g>
+</svg>
