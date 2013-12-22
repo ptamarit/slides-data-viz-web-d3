@@ -63,7 +63,9 @@ module.exports = function(grunt) {
         path: '.grunt/grunt-html-validation/status.json',
         reportpath: '.grunt/grunt-html-validation/report.json',
         relaxerror: ['Bad value {%= lang %} for attribute lang on element html: ' +
-                     'Subtags must not exceed 8 characters in length.']
+                     'Subtags must not exceed 8 characters in length.',
+                     'Bad value ../{%= other_lang %}/ for attribute href on element a: ' +
+                     'Whitespace in path component. Use %20 in place of spaces.']
       },
       code: {
         src: ['src/**/*.html', '!src/bower_components/**/*.html']
