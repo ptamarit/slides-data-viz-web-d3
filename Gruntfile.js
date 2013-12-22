@@ -211,6 +211,10 @@ module.exports = function(grunt) {
         base: 'dist',
         message: 'autocommit <%= grunt.template.today("isoDateTime") %>',
         repo: 'https://' + process.env.GH_TOKEN + '@<%= pkg.repository.url.substring("git://".length) %>',
+        user: {
+          name: 'test',
+          email: 'user@example.com'
+        }
         silent: true
       },
       src: '**/*'
