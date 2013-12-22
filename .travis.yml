@@ -6,8 +6,8 @@ before_install:
   - npm install -g bower grunt-cli
   - bower install
 
-script: "grunt publish"
+script: grunt publish
 
 env:
   global:
-    secure: EmjGZyMST15FoQQSgJwSuTQDFlSknXOMs9BbfKRhgvWDPnYR1fMEBL/Kjxasp8sYu7GEZ4nPwGIJX4rCB/x0ixaOOPMlJ1pq/hG3cD/y8KHvmeX5sNJ9UVtIop0mv9aaqD66MAMadBI1qCidwpW+FLL5E1CrG6+D3sMkWwxZyNc=
+    secure: FHJ7XGeTv7CP47zJaSzVNHOronTvQ/MpKliJ05yIi2UX4+lJ5QpRLA3IgHNzwsQWSZmhJaUAaDLFwqsU+e0Qk/6fOezCfRnzi7o1gmXTHSULbifXnvtw2CLjOrbkeZDqiq6MUzz9u9vnDaaxeSmZFRZ5R6i6hembE2kGuc8RbF0=
