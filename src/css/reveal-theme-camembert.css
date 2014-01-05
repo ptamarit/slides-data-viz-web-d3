@@ -9,7 +9,7 @@ body {
 }
 
 .reveal {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
 
   font-size: 36px;
@@ -43,7 +43,7 @@ body {
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  font-family: 'Droid Serif', serif;
+  font-family: "Droid Serif", serif;
   line-height: 0.9em;
 
   /* Disable Reveal's default hyphens on headings */
@@ -76,7 +76,7 @@ body {
  *********************************************/
 
 .reveal code {
-  font-family: 'Source Code Pro', monospace;
+  font-family: "Source Code Pro", monospace;
   font-weight: 400;
   font-style: normal;
 }
