@@ -52,7 +52,7 @@ immediate_rendering: Full control over rendering
 retained_events: Handlers can be attached to graphical elements
 immediate_events: Interactions from mouse coordinates
 retained_perf: Good performance with a reasonable number of objects
-immediate_perf: "\"Constant\" performance"
+immediate_perf: “Constant” performance
 
 date_2013_10_14: 14 October 2013
 
@@ -112,7 +112,7 @@ keep_circles: Keep the circles
 transitions: Transitions (interpolate positions and diameters)
 enter_exit: Appearances and disappearances
 
-remaining: What's left
+remaining: What’s left
 
 advanced_examples: Advanced examples
 

@@ -38,7 +38,7 @@ nothing_new: Mais rien de neuf
 title_pie_charts: Camemberts
 title_pie_charts_3d: Camemberts 3D
 
-navigate: Naviguer d'une page à l'autre via des hyperliens
+navigate: Naviguer d’une page à l’autre via des hyperliens
 
 vectorial_bitmap: Vectoriel vs Bitmap
 retained_immediate: Retained mode vs Immediate mode
@@ -51,8 +51,8 @@ retained_rendering: Rendu géré par le moteur
 immediate_rendering: Contrôle complet du rendu
 retained_events: Attacher des listeners/handlers aux objets graphiques
 immediate_events: Interactions via les coordonnées de la souris
-retained_perf: Performances OK avec nombre d'objets raisonnables
-immediate_perf: Performances "constantes"
+retained_perf: Performances OK avec nombre d’objets raisonnables
+immediate_perf: Performances “constantes”
 
 date_2013_10_14: 14 octobre 2013
 
@@ -102,9 +102,9 @@ the_end: Fin
 
 extra: en plus
 
-selection_of_selection: Sélection d'une sélection
+selection_of_selection: Sélection d’une sélection
 
-no_animation: Sans animation, c'est pas la joie!
+no_animation: Sans animation, c’est pas la joie!
 
 discard: On jette tout et on recommence?
 
