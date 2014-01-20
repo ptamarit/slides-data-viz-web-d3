@@ -8,7 +8,7 @@ pt.exampleBind.WIDTH = 640;
 pt.exampleBind.HEIGHT = 480;
 pt.exampleBind.svg = null;
 
-pt.exampleBind.init = function () {
+pt.exampleBind.init = function() {
   'use strict';
 
   pt.exampleBind.svg = d3.select('#example-bind-result .placeholder')
