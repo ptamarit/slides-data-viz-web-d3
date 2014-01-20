@@ -36,8 +36,7 @@ pt.exampleBind.positionAndSizeCircle = function(circle) {
     })
     .attr('r', function(d) {
       return d.weight;
-    })
-    ;
+    });
 };
 
 pt.exampleBind.update = function(error, dataset) {
