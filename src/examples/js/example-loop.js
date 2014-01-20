@@ -8,7 +8,7 @@ pt.exampleLoop.WIDTH = 640;
 pt.exampleLoop.HEIGHT = 480;
 pt.exampleLoop.svg = null;
 
-pt.exampleLoop.init = function () {
+pt.exampleLoop.init = function() {
   'use strict';
 
   pt.exampleLoop.svg = d3.select('#example-loop-remove-result .placeholder')
