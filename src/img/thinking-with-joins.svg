@@ -1,4 +1,59 @@
-<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg width="720" height="240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs class="svg-crowbar"><style type="text/css"><![CDATA[
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="541.5"
+   height="268.98438"
+   version="1.1"
+   id="svg2"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="thinking-with-joins.svg">
+  <metadata
+     id="metadata30">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="702"
+     id="namedview28"
+     showgrid="false"
+     fit-margin-top="10"
+     fit-margin-left="100"
+     fit-margin-right="100"
+     fit-margin-bottom="10"
+     inkscape:zoom="1.6808951"
+     inkscape:cx="259.02707"
+     inkscape:cy="143.20818"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g10" />
+  <defs
+     class="svg-crowbar"
+     id="defs4">
+    <style
+       type="text/css"
+       id="style6">
 html { min-width: 1040px; }
 body { background-color: rgb(252, 252, 250); color: rgb(51, 51, 51); font-family: serif; margin: 1em auto 4em; position: relative; width: 960px; background-position: initial initial; background-repeat: initial initial; }
 header, footer, h1, h2, h3, h4, aside { color: rgb(0, 0, 0); font-family: sans-serif; }
@@ -30,4 +85,90 @@ q::before { content: '“'; }
 q::after { content: '”'; }
 blockquote::before { position: absolute; left: 2em; }
 blockquote::after { position: absolute; }
-circle { fill: none; fill-opacity: 0.2; stroke: #000000; stroke-width: 1.5px; }]]></style></defs><g transform="translate(0,128)"><g transform="translate(300)"><circle r="110" style="fill: #3182bd;"></circle><text y="-120" dy=".35em" text-anchor="middle" style="font-weight: bold;">Data</text><text x="-50" dy=".35em" text-anchor="middle">Enter</text></g><text x="360" dy=".35em" text-anchor="middle">Update</text><g transform="translate(420)"><circle r="110" style="fill: #e6550d;"></circle><text y="-120" dy=".35em" text-anchor="middle" style="font-weight: bold;">Elements</text><text x="50" dy=".35em" text-anchor="middle">Exit</text></g></g></svg>
+circle { fill: none; fill-opacity: 0.2; stroke: #000000; stroke-width: 1.5px; }</style>
+  </defs>
+  <g
+     transform="translate(-89.25,148.23437)"
+     id="g8">
+    <g
+       transform="translate(300,0)"
+       id="g10">
+      <circle
+         r="110"
+         style="fill:#3182bd;fill-opacity:0.2;stroke:#000000;stroke-width:1.5px"
+         id="circle12"
+         d="M 110,0 C 110,60.751322 60.751322,110 0,110 -60.751322,110 -110,60.751322 -110,0 c 0,-60.751322 49.248678,-110 110,-110 60.751322,0 110,49.248678 110,110 z"
+         cx="0"
+         cy="0"
+         sodipodi:cx="0"
+         sodipodi:cy="0"
+         sodipodi:rx="110"
+         sodipodi:ry="110" />
+      <text
+         y="-120"
+         dy="0"
+         style="font-weight:bold;text-anchor:middle"
+         id="text14"
+         x="-12">
+        <tspan
+           style="font-size:24px"
+           id="tspan3011">Data</tspan>
+      </text>
+      <text
+         x="-50"
+         dy="0"
+         id="text16"
+         style="text-anchor:middle"
+         y="4">
+        <tspan
+           style="font-size:24px"
+           id="tspan3007">Enter</tspan>
+      </text>
+    </g>
+    <text
+       x="360"
+       dy="0"
+       id="text18"
+       style="text-anchor:middle"
+       y="4">
+      <tspan
+         style="font-size:24px"
+         id="tspan3015">Update</tspan>
+    </text>
+    <g
+       transform="translate(420,0)"
+       id="g20">
+      <circle
+         r="110"
+         style="fill:#e6550d;fill-opacity:0.2;stroke:#000000;stroke-width:1.5px"
+         id="circle22"
+         d="M 110,0 C 110,60.751322 60.751322,110 0,110 -60.751322,110 -110,60.751322 -110,0 c 0,-60.751322 49.248678,-110 110,-110 60.751322,0 110,49.248678 110,110 z"
+         cx="0"
+         cy="0"
+         sodipodi:cx="0"
+         sodipodi:cy="0"
+         sodipodi:rx="110"
+         sodipodi:ry="110" />
+      <text
+         y="-120"
+         dy="0"
+         style="font-weight:bold;text-anchor:middle"
+         id="text24"
+         x="12">
+        <tspan
+           style="font-size:24px"
+           id="tspan3013">Elements</tspan>
+      </text>
+      <text
+         x="46"
+         dy="0"
+         id="text26"
+         style="text-anchor:middle"
+         y="4">
+        <tspan
+           style="font-size:24px"
+           id="tspan3009">Exit</tspan>
+      </text>
+    </g>
+  </g>
+</svg>
