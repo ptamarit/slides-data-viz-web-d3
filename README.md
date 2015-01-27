@@ -13,3 +13,12 @@
 - Run `grunt build` to execute all the checking tasks and build the distributable files.
 - Run `grunt dist` to execute all the checking tasks, build the distributable files and start a local HTTP server on the distributable files.
 - Run `grunt publish` to execute all the checking tasks, build the distributable files and publish them to your gh-pages branch on GitHub.
+
+## License
+
+The content of this project is licensed under the
+[Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/),
+and the source code is licensed under the
+[MIT license](http://opensource.org/licenses/MIT).
+
+© [Pablo Tamarit](http://ptamarit.com)
