@@ -2,6 +2,7 @@ lang: en
 
 title_head: Data visualization for the web with D3.js
 subtitle_head: So long pie charts
+description_head: An introduction to D3.js and how to use it to create data visualizations for the web.
 
 title: Data visualization<br>for the web with D3.js
 subtitle: So long pie charts*
